@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>AdoCão</title>
+</head>
+<body>
+  <h2>Editar Publicação</h2>
+
+  <form id="form_editar_publicacao">
+    <label>Imagem URL:</label>
+    <input type="text" id="imagem_url"><br>
+
+    <label>Legenda:</label>
+    <input type="text" id="imagem_legenda"><br>
+
+    <label>Tipo:</label>
+    <select id="tipo">
+      <option value="perdido">Perdido</option>
+      <option value="encontrado">Encontrado</option>
+      <option value="adocao">Adoção</option>
+    </select><br>
+
+    <label>Nome do Pet:</label>
+    <input type="text" id="nome_pet"><br>
+
+    <label>Espécie:</label>
+    <select id="especie">
+      <option value="cachorro">Cachorro</option>
+      <option value="gato">Gato</option>
+      <option value="outro">Outro</option>
+    </select><br>
+
+    <label>Raça:</label>
+    <input type="text" id="raca"><br>
+
+    <label>Cor:</label>
+    <input type="text" id="cor"><br>
+
+    <label>Gênero:</label>
+    <select id="genero">
+      <option value="macho">Macho</option>
+      <option value="femea">Fêmea</option>
+      <option value="nao_informado">Não informado</option>
+    </select><br>
+
+    <label>Telefone:</label>
+    <input type="text" id="telefone"><br>
+    
+    <label>Descrição:</label>
+    <textarea id="descricao"></textarea><br>
+
+    <label>Localização:</label>
+    <input type="text" id="localizacao"><br>
+
+    <label>Status:</label>
+    <select id="status">
+      <option value="ativo">Ativo</option>
+      <option value="resolvido">Resolvido</option>
+      <option value="inativo">Inativo</option>
+    </select><br>
+
+    <button type="submit">Salvar Alterações</button>
+  </form>
+
+  <script src="js/editarPublicacao.js"></script>
+</body>
+</html>
