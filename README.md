@@ -79,8 +79,16 @@ npm install
 
 # Configure as variáveis de ambiente (.env)
 # Exemplo:
-# DB_URL=localhost...
-# PORT=3000
+# Configurações do Banco de Dados
+  DB_HOST=localhost
+  DB_PORT=3306 
+  DB_USER=root
+  DB_PASS=1507
+  DB_NAME=encontrapet
+# Porta do servidor
+  PORT=3000
+# Segurança
+  SENHA_SEGURA = 'chave_secreta_super_segura'
 
 # Inicie o servidor
 npm start
@@ -90,3 +98,4 @@ npm start
 ## 🐕 Licença
 
 Este projeto está sob a licença **MIT** 
+
